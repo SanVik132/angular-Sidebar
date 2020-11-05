@@ -1,6 +1,13 @@
-<mat-toolbar color="primary" role="heading">
-  <button mat-icon-button (click)="clickMenu()">
+
+<mat-toolbar color="primary">
+  <button class="example-icon" mat-icon-button (click)="clickMenu()">
     <mat-icon>menu</mat-icon>
   </button>
-  <button mat-button>{{ title }}</button>
+
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button class=" button-class mt-1">Logout</button><br>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
 </mat-toolbar>
